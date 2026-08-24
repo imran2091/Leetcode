@@ -37,3 +37,15 @@ console.log(solution.secondLargestElement(nums1)); // Output: 15
 // Test case 2: Array with duplicates
 const nums2 = [10, 10, 5, 8];
 console.log(solution.secondLargestElement(nums2)); // Output: 8
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+// Reason: We are using two variables to store the largest and second largest elements. The space complexity is O(1) because we are not using any extra space.
+// Example:
+// Input: [10, 5, 8, 20, 15]
+// Output: 15
+// Explanation: The second largest element is 15.
+// Example:
+// Input: [10, 10, 5, 8]
+// Output: 8
+// Explanation: The second largest element is 8.
